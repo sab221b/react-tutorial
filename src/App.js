@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SayHello from './components/FunctionalComponent'
+import SayHelloClass from './components/ClassComponent';
+import { JSXExample, WithoutJSX } from './components/JSXexample';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SayHello />
+      <SayHelloClass />
+      <JSXExample />
+      <WithoutJSX />
     </div>
   );
 }
