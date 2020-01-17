@@ -4,6 +4,7 @@ import SayHello from './components/FunctionalComponent'
 import SayHelloClass from './components/ClassComponent';
 import { JSXExample, WithoutJSX } from './components/JSXexample';
 import StateManupulation from './components/StateManupulation';
+import EventHandlers from './components/EventHandlers';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <JSXExample />
       <WithoutJSX />
       <StateManupulation />
+      <EventHandlers />
     </div>
   );
 }
